@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrapper{
+    filter: grayscale(100%);
+    margin-right: 20px;
+    opacity: .3;
+    transition: .5s;
+    width: auto;
+    height: auto;
+}
+
+.logo-wrapper:hover{
+    filter: grayscale(0%);
+    opacity: 2;
+}
+
+.logo{
+    width: 150px;
+}
